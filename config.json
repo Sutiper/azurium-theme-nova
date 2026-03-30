@@ -39,7 +39,7 @@
   {
     "type": "text",
     "id": "background_image",
-    "name": "Background image (relative path)",
-    "default": ""
+    "name": "Background image (path relative to theme assets)",
+    "default": "img/hero-bg.jpg"
   }
 ]
