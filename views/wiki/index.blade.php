@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Wiki - ' . theme_config('server_name', site_name()))
+@section('title', 'Wiki - ' . site_name())
 
 @section('content')
 
