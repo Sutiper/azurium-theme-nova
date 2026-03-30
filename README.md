@@ -1,24 +1,54 @@
-# Nova Theme for Azuriom
+# Azurium Theme Nova
 
-A complete dark Minecraft theme for [Azuriom](https://azuriom.com), inspired by the official Nova theme. Built following the structure of [MineLite](https://github.com/YuketsuSh/MineLite).
+A modern, dark Minecraft-oriented theme for [Azuriom](https://azuriom.com/), inspired by the Nova aesthetic.
 
-## Features
+## Preview
 
-- Full dark mode design
-- Custom navbar with mobile support
-- Home page with hero, news, stats & features sections
-- Forum, Vote, Shop, FAQ, Wiki pages
-- Animated particle background
-- Fully responsive (Bootstrap 5)
+> Coming soon
 
 ## Installation
 
-1. Download or clone this repository
-2. Place the folder in `resources/themes/` of your Azuriom installation
-3. Go to Admin > Appearance > Themes and activate **Nova**
+1. Download the latest release.
+2. Copy the `azurium-theme-nova` folder into your Azuriom's `resources/views/themes/` directory.
+3. Go to **Admin Panel → Appearance → Themes** and activate the theme.
+4. Customize the colors from the theme settings.
 
-## Credits
+## Features
 
-- Built by [Sutiper](https://github.com/Sutiper)
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by Velyorix
-- Powered by [Azuriom](https://azuriom.com)
+- Dark, sleek design inspired by Nova
+- Fully responsive (mobile-first)
+- Bootstrap 5 based
+- Bootstrap Icons
+- Support for: Home, Pages, News, Forum, Vote, Shop, FAQ, Wiki
+- Customizable colors via Azuriom's theme config
+
+## Structure
+
+```
+azurium-theme-nova/
+├── theme.json
+├── config.json
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+└── views/
+    ├── layouts/
+    │   └── app.blade.php
+    ├── partials/
+    │   ├── navbar.blade.php
+    │   └── footer.blade.php
+    ├── home.blade.php
+    ├── page.blade.php
+    ├── news/
+    ├── forum/
+    ├── vote/
+    ├── shop/
+    ├── faq/
+    └── wiki/
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE)

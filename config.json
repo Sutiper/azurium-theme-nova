@@ -1,12 +1,29 @@
 {
-    "colors": {
-        "theme-font-family": "'Roboto', sans-serif",
-        "theme-body-color": "#ffffff",
-        "theme-body-background": "#262626",
-        "theme-navbar-background": "#101010",
-        "theme-button-color": "#ffffff",
-        "theme-button-background": "#165fd4",
-        "theme-button-second-color": "#000000",
-        "theme-button-second-background": "#ffffff"
-    }
+    "colors": [
+        {
+            "name": "Primary Color",
+            "id": "primary",
+            "default": "#165fd4"
+        },
+        {
+            "name": "Secondary Color",
+            "id": "secondary",
+            "default": "#ffffff"
+        },
+        {
+            "name": "Background Color",
+            "id": "background",
+            "default": "#262626"
+        },
+        {
+            "name": "Navbar Background",
+            "id": "navbar_background",
+            "default": "#101010"
+        },
+        {
+            "name": "Footer Background",
+            "id": "footer_background",
+            "default": "#101010"
+        }
+    ]
 }
