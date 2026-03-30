@@ -1,8 +1,7 @@
 {
-    "id": "azurium-theme-nova",
-    "name": "Nova",
-    "description": "A clean, modern Azuriom theme inspired by the Nova design, built with Bootstrap 5 and dark-first design.",
+    "name": "azurium-theme-nova",
     "version": "1.0.0",
+    "description": "A clean, Nova-inspired dark theme for Azuriom.",
     "url": "https://github.com/Sutiper/azurium-theme-nova",
     "authors": [
         {

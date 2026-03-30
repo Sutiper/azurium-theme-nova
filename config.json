@@ -2,28 +2,43 @@
     "colors": [
         {
             "name": "Primary Color",
-            "id": "primary",
+            "value": "primary",
             "default": "#165fd4"
         },
         {
             "name": "Secondary Color",
-            "id": "secondary",
-            "default": "#6c757d"
+            "value": "secondary",
+            "default": "#ffffff"
         },
         {
             "name": "Navbar Background",
-            "id": "navbar_bg",
+            "value": "navbar-bg",
             "default": "#101010"
         },
         {
             "name": "Body Background",
-            "id": "body_bg",
+            "value": "body-bg",
             "default": "#1a1a1a"
         },
         {
+            "name": "Card Background",
+            "value": "card-bg",
+            "default": "#262626"
+        },
+        {
             "name": "Footer Background",
-            "id": "footer_bg",
-            "default": "#101010"
+            "value": "footer-bg",
+            "default": "#0d0d0d"
+        },
+        {
+            "name": "Text Color",
+            "value": "text-color",
+            "default": "#ffffff"
+        },
+        {
+            "name": "Text Muted Color",
+            "value": "text-muted",
+            "default": "#adb5bd"
         }
     ]
 }

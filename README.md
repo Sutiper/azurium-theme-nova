@@ -1,36 +1,30 @@
-# Azurium Theme Nova
+# azurium-theme-nova
 
-A clean, modern [Azuriom](https://azuriom.com) theme inspired by the **Nova** design — dark-first, Bootstrap 5-powered, and fully compatible with Azuriom plugins (Forum, Shop, Vote, FAQ, Wiki, Support).
+A clean, Nova-inspired dark theme for [Azuriom](https://azuriom.com).
 
-## Features
+Inspired by the [MineLite](https://github.com/YuketsuSh/MineLite) theme.
 
-- Dark-first design with Bootstrap 5
-- Responsive (mobile-first)
-- Compatible with Azuriom plugins: Forum, Shop, Vote, FAQ, Wiki, Support Tickets
-- Fully customizable colors via `config.json`
-- Hero section with server IP copy buttons
-- Stats bar (connected players, registered players, record)
-- News section, video embed, feature highlights
+## Preview
+
+> Coming soon.
 
 ## Installation
 
-1. Download or clone this repository.
-2. Place the folder inside `resources/views/themes/` and rename it to `azurium-theme-nova` (or the ID in `theme.json`).
-3. Place assets inside `public/themes/azurium-theme-nova/`.
-4. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Nova**.
+1. Download or clone this repository into `resources/themes/azurium-theme-nova`.
+2. In your Azuriom admin panel, go to **Appearance > Themes** and enable **azurium-theme-nova**.
+3. Customize colors and settings from the theme configuration panel.
 
 ## Structure
 
 ```
 azurium-theme-nova/
-├── theme.json
-├── config.json
-├── README.md
+├── theme.json         # Theme metadata
+├── config.json        # Customizable color/settings config
 ├── assets/
 │   ├── css/
-│   │   └── style.css
+│   │   └── style.css  # Main stylesheet
 │   └── js/
-│       └── script.js
+│       └── script.js  # Main scripts
 └── views/
     ├── layouts/
     │   └── app.blade.php
@@ -40,27 +34,13 @@ azurium-theme-nova/
     ├── home.blade.php
     ├── page.blade.php
     ├── news/
-    │   ├── index.blade.php
-    │   └── show.blade.php
     ├── forum/
-    │   ├── index.blade.php
-    │   └── show.blade.php
     ├── vote/
-    │   └── index.blade.php
     ├── shop/
-    │   ├── index.blade.php
-    │   └── category.blade.php
     ├── faq/
-    │   └── index.blade.php
     └── wiki/
-        └── index.blade.php
 ```
-
-## Credits
-
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
-- Built for [Azuriom](https://azuriom.com)
 
 ## License
 
-MIT License — see [LICENSE](LICENSE)
+MIT License — see [LICENSE](LICENSE).
