@@ -40,6 +40,6 @@
     "type": "text",
     "id": "background_image",
     "name": "Background image",
-    "default": "img/hero-bg.jpg"
+    "default": "assets/img/hero-bg.jpg"
   }
 ]

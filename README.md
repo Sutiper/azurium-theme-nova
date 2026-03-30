@@ -1,39 +1,60 @@
 # azurium-theme-nova
 
-A Nova-like Azuriom theme inspired by [MineLite](https://github.com/YuketsuSh/MineLite) and the official Azuriom demo pages.
+A **Nova-like dark theme** for [Azuriom](https://azuriom.com), inspired by [MineLite](https://github.com/YuketsuSh/MineLite).
+
+## Features
+
+- Dark modern design inspired by the official Nova theme
+- Full Bootstrap 5 integration
+- Covers: Home, Pages, News, Forum, Vote, Shop, FAQ, Wiki
+- Responsive (mobile-first)
+- Easy config via `config.json` (server name, hero title, background image, ...)
 
 ## Installation
 
-1. Download or clone this repo into `resources/themes/azurium-theme-nova`
-2. Go to your Azuriom admin panel → **Appearance** → **Themes**
-3. Activate **azurium-theme-nova**
-4. Customise via **Appearance** → **Theme settings**
+1. Clone or download this repository
+2. Place it in `resources/themes/azurium-theme-nova` in your Azuriom installation
+3. Go to Azuriom Admin Panel → Appearance → Themes → Activate `azurium-theme-nova`
+4. Customize via Admin Panel → Appearance → Theme Configuration
+
+## Assets
+
+Place your images in `assets/img/`:
+- `logo.png` — server logo (200×200px recommended)
+- `hero-bg.jpg` — hero background (1920×1080px recommended)
 
 ## Structure
 
 ```
-theme.json         — Theme metadata
-config.json        — Customisable settings (admin panel)
-config/theme.php   — PHP config helpers
-assets/
-  css/style.css    — Main stylesheet
-  js/app.js        — Main script
-  img/             — Place logo.png and hero-bg.jpg here
-views/
-  layouts/app.blade.php
-  partials/navbar.blade.php
-  partials/footer.blade.php
-  home.blade.php
-  page.blade.php
-  news/index.blade.php  news/show.blade.php
-  forum/index.blade.php forum/show.blade.php  forum/thread.blade.php
-  vote/index.blade.php
-  shop/index.blade.php  shop/category.blade.php  shop/product.blade.php
-  faq/index.blade.php
-  wiki/index.blade.php
+azurium-theme-nova/
+├── theme.json
+├── config.json
+├── config/
+│   └── theme.php
+├── assets/
+│   ├── css/style.css
+│   ├── js/app.js
+│   └── img/
+└── views/
+    ├── layouts/app.blade.php
+    ├── partials/
+    │   ├── navbar.blade.php
+    │   └── footer.blade.php
+    ├── home.blade.php
+    ├── page.blade.php
+    ├── news/
+    ├── forum/
+    ├── vote/
+    ├── shop/
+    ├── faq/
+    └── wiki/
 ```
 
 ## Credits
 
-- Design inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
+- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
 - Built for [Azuriom](https://azuriom.com)
+
+## License
+
+MIT
