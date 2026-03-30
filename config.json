@@ -1,66 +1,13 @@
 {
-    "colors": [
-        {
-            "name": "Primary Color",
-            "id": "primary",
-            "default": "#165fd4"
-        },
-        {
-            "name": "Navbar Background",
-            "id": "navbar-background",
-            "default": "#101010"
-        },
-        {
-            "name": "Body Background",
-            "id": "body-background",
-            "default": "#262626"
-        },
-        {
-            "name": "Body Color",
-            "id": "body-color",
-            "default": "#ffffff"
-        },
-        {
-            "name": "Button Color",
-            "id": "button-color",
-            "default": "#ffffff"
-        },
-        {
-            "name": "Button Background",
-            "id": "button-background",
-            "default": "#165fd4"
-        },
-        {
-            "name": "Secondary Button Color",
-            "id": "button-second-color",
-            "default": "#000000"
-        },
-        {
-            "name": "Secondary Button Background",
-            "id": "button-second-background",
-            "default": "#ffffff"
-        }
-    ],
-    "fonts": [
-        {
-            "name": "Body Font",
-            "id": "body-font",
-            "default": "Roboto"
-        },
-        {
-            "name": "Title Font",
-            "id": "title-font",
-            "default": "Roboto"
-        }
-    ],
-    "images": [
-        {
-            "name": "Background Image",
-            "id": "background"
-        },
-        {
-            "name": "Logo",
-            "id": "logo"
-        }
-    ]
+    "colors": {
+        "navbar-bg": "#101010",
+        "body-bg": "#1a1a1a",
+        "body-color": "#e0e0e0",
+        "primary": "#165fd4",
+        "secondary": "#6c757d"
+    },
+    "fonts": {
+        "body": "Rajdhani",
+        "heading": "Rajdhani"
+    }
 }

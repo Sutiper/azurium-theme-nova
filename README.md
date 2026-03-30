@@ -1,56 +1,27 @@
 # azurium-theme-nova
 
-A clean, modern Azuriom theme inspired by the official **Nova** design.
+A clean and modern theme for [Azuriom](https://azuriom.com), inspired by the **Nova** theme style.
 
-Built with **Bootstrap 5** and **Bootstrap Icons**, this theme provides a full set of views for all standard Azuriom pages (Home, Forum, Vote, Shop, FAQ, Wiki, News, etc.) as well as an admin panel override.
+## Features
 
-## Preview
-
-> Screenshots coming soon.
+- Dark-first design with Bootstrap 5
+- Bootstrap Icons included
+- Responsive navbar with active state
+- Hero section with server IPs copy-to-clipboard
+- Stats footer (connected players, registered players, record)
+- Full page coverage: Home, Page, News, Forum, Vote, Shop, FAQ, Wiki
 
 ## Installation
 
-1. Download or clone this repository into your Azuriom themes directory:
-   ```
-   resources/themes/azurium-theme-nova
-   ```
-2. Go to **Admin Panel → Appearance → Themes** and activate **Nova**.
-3. Customize colors, fonts and images in the theme settings.
+1. Download or clone this repository into `resources/views/themes/azurium-theme-nova`
+2. Copy the `public/` assets into `public/themes/azurium-theme-nova/`
+3. Activate the theme in your Azuriom admin panel
 
-## Structure
+## Requirements
 
-```
-azurium-theme-nova/
-├── theme.json          # Theme metadata
-├── config.json         # Color / font / image settings
-├── assets/
-│   ├── css/
-│   │   ├── style.css       # Main theme styles
-│   │   └── components.css  # Component-specific styles
-│   └── js/
-│       ├── script.js       # Main theme scripts
-│       └── components.js   # Component scripts
-└── views/
-    ├── layouts/
-    │   └── app.blade.php       # Main layout
-    ├── partials/
-    │   ├── navbar.blade.php
-    │   └── footer.blade.php
-    ├── home.blade.php
-    ├── page.blade.php
-    ├── news/
-    ├── forum/
-    ├── vote/
-    ├── shop/
-    ├── faq/
-    └── wiki/
-```
-
-## Credits
-
-- Inspired by [YuketsuSh/MineLite](https://github.com/YuketsuSh/MineLite)
-- Built on [Azuriom](https://azuriom.com)
+- Azuriom >= 1.2.0
+- PHP >= 8.1
 
 ## License
 
-MIT
+MIT License

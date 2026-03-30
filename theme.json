@@ -1,17 +1,16 @@
 {
     "id": "azurium-theme-nova",
     "name": "Nova",
-    "description": "A clean, modern Azuriom theme inspired by the Nova design, built with Bootstrap 5 and Bootstrap Icons.",
     "version": "1.0.0",
+    "description": "A clean, modern Azuriom theme inspired by Nova, built with Bootstrap 5 and Bootstrap Icons.",
     "url": "https://github.com/Sutiper/azurium-theme-nova",
     "authors": [
         {
             "name": "Sutiper",
-            "user": "Sutiper"
+            "role": "Developer"
         }
     ],
-    "azuriom_api": "1.0",
-    "providers": [
-        "\\Azuriom\\Theme\\ThemeServiceProvider"
-    ]
+    "azuriom_api": "1.2.0",
+    "homepage": "/",
+    "assets_dir": "assets"
 }
