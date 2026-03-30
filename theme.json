@@ -1,0 +1,11 @@
+{
+    "id": "azurium-theme-nova",
+    "name": "Nova",
+    "description": "A modern dark Minecraft theme for Azuriom, inspired by Nova.",
+    "version": "1.0.0",
+    "url": "https://github.com/Sutiper/azurium-theme-nova",
+    "authors": [
+        "Sutiper"
+    ],
+    "azuriom_api": "1.1.0"
+}

@@ -1,0 +1,12 @@
+{
+    "colors": {
+        "theme-font-family": "'Roboto', sans-serif",
+        "theme-body-color": "#ffffff",
+        "theme-body-background": "#262626",
+        "theme-navbar-background": "#101010",
+        "theme-button-color": "#ffffff",
+        "theme-button-background": "#165fd4",
+        "theme-button-second-color": "#000000",
+        "theme-button-second-background": "#ffffff"
+    }
+}
