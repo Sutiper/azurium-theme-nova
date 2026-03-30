@@ -2,55 +2,65 @@
     "colors": [
         {
             "name": "Primary Color",
-            "css_variable": "--primary",
+            "id": "primary",
             "default": "#165fd4"
         },
         {
-            "name": "Secondary Color",
-            "css_variable": "--secondary",
-            "default": "#ffffff"
-        },
-        {
-            "name": "Background Color",
-            "css_variable": "--bg",
-            "default": "#1a1a1a"
-        },
-        {
             "name": "Navbar Background",
-            "css_variable": "--navbar-bg",
+            "id": "navbar-background",
             "default": "#101010"
         },
         {
-            "name": "Footer Background",
-            "css_variable": "--footer-bg",
-            "default": "#0d0d0d"
+            "name": "Body Background",
+            "id": "body-background",
+            "default": "#262626"
         },
         {
-            "name": "Card Background",
-            "css_variable": "--card-bg",
-            "default": "#242424"
-        },
-        {
-            "name": "Text Color",
-            "css_variable": "--text",
+            "name": "Body Color",
+            "id": "body-color",
             "default": "#ffffff"
         },
         {
-            "name": "Text Muted Color",
-            "css_variable": "--text-muted",
-            "default": "#aaaaaa"
+            "name": "Button Color",
+            "id": "button-color",
+            "default": "#ffffff"
+        },
+        {
+            "name": "Button Background",
+            "id": "button-background",
+            "default": "#165fd4"
+        },
+        {
+            "name": "Secondary Button Color",
+            "id": "button-second-color",
+            "default": "#000000"
+        },
+        {
+            "name": "Secondary Button Background",
+            "id": "button-second-background",
+            "default": "#ffffff"
         }
     ],
     "fonts": [
         {
             "name": "Body Font",
-            "css_variable": "--font-body",
-            "default": "'Satoshi', sans-serif"
+            "id": "body-font",
+            "default": "Roboto"
         },
         {
-            "name": "Display Font",
-            "css_variable": "--font-display",
-            "default": "'Cabinet Grotesk', sans-serif"
+            "name": "Title Font",
+            "id": "title-font",
+            "default": "Roboto"
+        }
+    ],
+    "images": [
+        {
+            "name": "Background Image",
+            "id": "background"
+        },
+        {
+            "name": "Logo",
+            "id": "logo"
         }
     ]
 }

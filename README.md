@@ -1,49 +1,38 @@
 # azurium-theme-nova
 
-A clean, modern **Azuriom** theme inspired by the Nova design, built for Minecraft server websites.
+A clean, modern Azuriom theme inspired by the official **Nova** design.
 
-![Preview](https://raw.githubusercontent.com/Sutiper/azurium-theme-nova/main/preview.png)
+Built with **Bootstrap 5** and **Bootstrap Icons**, this theme provides a full set of views for all standard Azuriom pages (Home, Forum, Vote, Shop, FAQ, Wiki, News, etc.) as well as an admin panel override.
 
-## Features
+## Preview
 
-- 🎨 Dark, immersive design inspired by Nova
-- 📱 Fully responsive (mobile-first)
-- ⚡ Bootstrap 5 based
-- 🔧 Configurable colors and fonts via admin panel
-- 📦 Supports: Home, Pages, News, Forum, Vote, Shop, FAQ, Wiki
-- 🛡️ Clean Blade templates — easy to customize
+> Screenshots coming soon.
 
 ## Installation
 
-1. Download or clone this repository into your Azuriom theme folder:
+1. Download or clone this repository into your Azuriom themes directory:
    ```
-   resources/themes/azurium-theme-nova/
+   resources/themes/azurium-theme-nova
    ```
-2. Go to your Azuriom admin panel → **Appearance** → **Themes**
-3. Select **azurium-theme-nova** and click **Enable**
-4. Customize colors and settings via **Theme Settings**
-
-## Requirements
-
-- Azuriom `>= 1.2.0`
-- PHP `>= 8.1`
+2. Go to **Admin Panel → Appearance → Themes** and activate **Nova**.
+3. Customize colors, fonts and images in the theme settings.
 
 ## Structure
 
 ```
 azurium-theme-nova/
 ├── theme.json          # Theme metadata
-├── config.json         # Customizable colors & fonts
-├── config/             # Theme PHP config
+├── config.json         # Color / font / image settings
 ├── assets/
 │   ├── css/
-│   │   ├── style.css   # Main stylesheet
-│   │   └── components.css
+│   │   ├── style.css       # Main theme styles
+│   │   └── components.css  # Component-specific styles
 │   └── js/
-│       └── script.js   # Main JS
+│       ├── script.js       # Main theme scripts
+│       └── components.js   # Component scripts
 └── views/
     ├── layouts/
-    │   └── app.blade.php
+    │   └── app.blade.php       # Main layout
     ├── partials/
     │   ├── navbar.blade.php
     │   └── footer.blade.php
@@ -57,11 +46,11 @@ azurium-theme-nova/
     └── wiki/
 ```
 
-## License
-
-MIT License — see [LICENSE](LICENSE)
-
 ## Credits
 
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
+- Inspired by [YuketsuSh/MineLite](https://github.com/YuketsuSh/MineLite)
 - Built on [Azuriom](https://azuriom.com)
+
+## License
+
+MIT
