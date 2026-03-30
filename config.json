@@ -11,19 +11,77 @@
             "default": "#ffffff"
         },
         {
-            "name": "Background Color",
-            "id": "background",
-            "default": "#262626"
-        },
-        {
             "name": "Navbar Background",
             "id": "navbar_background",
             "default": "#101010"
         },
         {
+            "name": "Body Background",
+            "id": "body_background",
+            "default": "#262626"
+        },
+        {
+            "name": "Card Background",
+            "id": "card_background",
+            "default": "#1e1e1e"
+        },
+        {
             "name": "Footer Background",
             "id": "footer_background",
             "default": "#101010"
+        }
+    ],
+    "fonts": [
+        {
+            "name": "Font Family",
+            "id": "font_family",
+            "default": "Roboto"
+        }
+    ],
+    "images": [
+        {
+            "name": "Logo",
+            "id": "logo"
+        },
+        {
+            "name": "Background",
+            "id": "background"
+        },
+        {
+            "name": "Favicon",
+            "id": "favicon"
+        }
+    ],
+    "texts": [
+        {
+            "name": "Server IP",
+            "id": "server_ip",
+            "default": "play.example.com"
+        },
+        {
+            "name": "Server Description",
+            "id": "server_description",
+            "default": "The best Minecraft server!"
+        },
+        {
+            "name": "Discord URL",
+            "id": "discord_url",
+            "default": ""
+        },
+        {
+            "name": "Twitter URL",
+            "id": "twitter_url",
+            "default": ""
+        },
+        {
+            "name": "YouTube URL",
+            "id": "youtube_url",
+            "default": ""
+        },
+        {
+            "name": "GitHub URL",
+            "id": "github_url",
+            "default": ""
         }
     ]
 }
