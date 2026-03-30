@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', $category->name . ' - ' . theme_config('server_name', site_name()))
+@section('title', $category->name . ' - ' . site_name())
 
 @section('content')
 
