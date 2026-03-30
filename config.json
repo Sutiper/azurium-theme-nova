@@ -39,7 +39,7 @@
   {
     "type": "text",
     "id": "background_image",
-    "name": "Background image path",
+    "name": "Background image",
     "default": "img/hero-bg.jpg"
   }
 ]
