@@ -1,77 +1,29 @@
 {
-    "colors": {
-        "primary": "#165fd4",
-        "secondary": "#0d4baa",
-        "navbar": "#101010",
-        "body_bg": "#1a1a1a",
-        "body_text": "#ffffff",
-        "footer_bg": "#0d0d0d",
-        "card_bg": "#242424"
-    },
-    "fonts": {
-        "body": "Exo 2",
-        "display": "Rajdhani"
-    },
-    "settings": [
+    "colors": [
         {
-            "name": "background_image",
-            "type": "image",
-            "label": "Background Image",
-            "default": null
+            "name": "Primary Color",
+            "id": "primary",
+            "default": "#165fd4"
         },
         {
-            "name": "server_ip",
-            "type": "text",
-            "label": "Primary Server IP",
-            "default": "play.example.com"
+            "name": "Secondary Color",
+            "id": "secondary",
+            "default": "#6c757d"
         },
         {
-            "name": "server_ip_2",
-            "type": "text",
-            "label": "Secondary Server IP (optional)",
-            "default": ""
+            "name": "Navbar Background",
+            "id": "navbar_bg",
+            "default": "#101010"
         },
         {
-            "name": "server_ip_3",
-            "type": "text",
-            "label": "Tertiary Server IP (optional)",
-            "default": ""
+            "name": "Body Background",
+            "id": "body_bg",
+            "default": "#1a1a1a"
         },
         {
-            "name": "discord_url",
-            "type": "text",
-            "label": "Discord Invite URL",
-            "default": "https://discord.gg/azuriom"
-        },
-        {
-            "name": "twitter_url",
-            "type": "text",
-            "label": "Twitter URL",
-            "default": ""
-        },
-        {
-            "name": "youtube_url",
-            "type": "text",
-            "label": "YouTube URL",
-            "default": ""
-        },
-        {
-            "name": "github_url",
-            "type": "text",
-            "label": "GitHub URL",
-            "default": ""
-        },
-        {
-            "name": "show_stats",
-            "type": "boolean",
-            "label": "Show player stats in footer",
-            "default": true
-        },
-        {
-            "name": "launcher_url",
-            "type": "text",
-            "label": "Launcher download URL",
-            "default": ""
+            "name": "Footer Background",
+            "id": "footer_bg",
+            "default": "#101010"
         }
     ]
 }

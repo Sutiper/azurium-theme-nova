@@ -1,35 +1,36 @@
-# Azurium Nova Theme
+# Azurium Theme Nova
 
-A modern, dark Minecraft server theme for [Azuriom](https://azuriom.com), inspired by the Nova aesthetic.
+A clean, modern [Azuriom](https://azuriom.com) theme inspired by the **Nova** design — dark-first, Bootstrap 5-powered, and fully compatible with Azuriom plugins (Forum, Shop, Vote, FAQ, Wiki, Support).
 
 ## Features
 
-- Dark, immersive design tailored for Minecraft servers
-- Fully responsive (mobile-first)
-- Bootstrap 5 based layout
-- Bootstrap Icons
-- Supports: Home, Forum, Shop, Vote, FAQ, Wiki, News pages
-- Configurable server IPs, social links, background image
-- Player stats footer block
+- Dark-first design with Bootstrap 5
+- Responsive (mobile-first)
+- Compatible with Azuriom plugins: Forum, Shop, Vote, FAQ, Wiki, Support Tickets
+- Fully customizable colors via `config.json`
+- Hero section with server IP copy buttons
+- Stats bar (connected players, registered players, record)
+- News section, video embed, feature highlights
 
 ## Installation
 
-1. Download or clone this repository into `resources/themes/azurium-theme-nova`
-2. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Azurium Nova**
-3. Customize the theme settings (server IPs, colors, social links, background image)
+1. Download or clone this repository.
+2. Place the folder inside `resources/views/themes/` and rename it to `azurium-theme-nova` (or the ID in `theme.json`).
+3. Place assets inside `public/themes/azurium-theme-nova/`.
+4. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Nova**.
 
 ## Structure
 
 ```
 azurium-theme-nova/
-├── theme.json          # Theme metadata
-├── config.json         # Theme settings definition
+├── theme.json
+├── config.json
+├── README.md
 ├── assets/
 │   ├── css/
-│   │   ├── style.css   # Main stylesheet
-│   │   └── components.css
+│   │   └── style.css
 │   └── js/
-│       └── script.js   # Theme JS
+│       └── script.js
 └── views/
     ├── layouts/
     │   └── app.blade.php
@@ -39,19 +40,27 @@ azurium-theme-nova/
     ├── home.blade.php
     ├── page.blade.php
     ├── news/
+    │   ├── index.blade.php
+    │   └── show.blade.php
     ├── forum/
+    │   ├── index.blade.php
+    │   └── show.blade.php
     ├── vote/
+    │   └── index.blade.php
     ├── shop/
+    │   ├── index.blade.php
+    │   └── category.blade.php
     ├── faq/
+    │   └── index.blade.php
     └── wiki/
+        └── index.blade.php
 ```
 
 ## Credits
 
+- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
 - Built for [Azuriom](https://azuriom.com)
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite)
-- Author: Sutiper
 
 ## License
 
-MIT
+MIT License — see [LICENSE](LICENSE)
