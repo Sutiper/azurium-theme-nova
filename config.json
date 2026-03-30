@@ -1,34 +1,21 @@
 {
-    "colors": [
-        {
-            "name": "Primary Color",
-            "value": "primary",
-            "color": "#165fd4"
-        },
-        {
-            "name": "Secondary Color",
-            "value": "secondary",
-            "color": "#6c757d"
-        },
-        {
-            "name": "Navbar Background",
-            "value": "navbar_bg",
-            "color": "#101010"
-        },
-        {
-            "name": "Body Background",
-            "value": "body_bg",
-            "color": "#1a1a1a"
-        },
-        {
-            "name": "Card Background",
-            "value": "card_bg",
-            "color": "#242424"
-        },
-        {
-            "name": "Footer Background",
-            "value": "footer_bg",
-            "color": "#0d0d0d"
-        }
-    ]
+    "colors": {
+        "primary": "#165fd4",
+        "secondary": "#ffffff",
+        "navbar": "#101010",
+        "background": "#1a1a1a",
+        "footer": "#0d0d0d"
+    },
+    "fonts": {
+        "body": "Exo 2",
+        "display": "Rajdhani"
+    },
+    "settings": {
+        "server_ip": "mc.example.com",
+        "discord_url": "https://discord.gg/example",
+        "twitter_url": "https://twitter.com/example",
+        "youtube_url": "https://youtube.com/@example",
+        "show_stats": true,
+        "particles_enabled": true
+    }
 }
