@@ -1,38 +1,33 @@
 # azurium-theme-nova
 
-A clean, modern **dark theme** for [Azuriom](https://azuriom.com), inspired by the Nova design.
-
-## Preview
-
-> Screenshots coming soon.
-
-## Installation
-
-1. Download the theme from the [Azuriom Market](https://market.azuriom.com) or clone this repository into `resources/themes/nova`.
-2. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Nova**.
-3. Customize colors and options in the theme settings.
+A clean, dark Minecraft server theme for [Azuriom](https://azuriom.com), inspired by the Nova theme.
 
 ## Features
 
-- 🌑 Full dark UI with customizable accent color
-- 📱 Fully responsive (mobile-first)
-- 🎮 Supports all core Azuriom plugins: Forum, Shop, Vote, FAQ, Wiki, Support
-- ⚙️ Configurable colors, fonts, and social links via admin panel
-- 🔒 Auth pages (login, register, 2FA) styled to match
-- 🛡️ Admin panel overrides for a consistent experience
+- Dark, sleek design inspired by Nova
+- Responsive (mobile-first)
+- Bootstrap 5 based
+- Full support: Home, Forum, Vote, Shop, FAQ, Wiki, News
+- Customizable colors via `config.json`
+
+## Installation
+
+1. Download or clone this repository into `resources/views/themes/azurium-theme-nova`
+2. Copy the `assets/` folder content into `public/themes/azurium-theme-nova/`
+3. Go to your Azuriom admin panel → Appearance → Themes
+4. Activate **azurium-theme-nova**
 
 ## Structure
 
 ```
 azurium-theme-nova/
-├── theme.json          # Theme metadata
-├── config.json         # Theme configuration (colors, fonts, options)
+├── theme.json
+├── config.json
 ├── assets/
 │   ├── css/
-│   │   ├── style.css   # Main theme styles
-│   │   └── admin.css   # Admin panel overrides
+│   │   └── style.css
 │   └── js/
-│       └── script.js   # Theme JavaScript
+│       └── script.js
 └── views/
     ├── layouts/
     │   └── app.blade.php
@@ -49,11 +44,11 @@ azurium-theme-nova/
     └── wiki/
 ```
 
-## Requirements
+## Credits
 
-- Azuriom >= 1.0
-- PHP >= 8.0
+- Based on [MineLite](https://github.com/YuketsuSh/MineLite) structure by YuketsuSh
+- Built for [Azuriom](https://azuriom.com)
 
 ## License
 
-MIT License — see [LICENSE](LICENSE).
+MIT

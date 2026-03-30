@@ -2,89 +2,33 @@
     "colors": [
         {
             "name": "Primary Color",
-            "id": "primary",
-            "default": "#165fd4"
+            "value": "primary",
+            "color": "#165fd4"
         },
         {
             "name": "Secondary Color",
-            "id": "secondary",
-            "default": "#ffffff"
+            "value": "secondary",
+            "color": "#6c757d"
         },
         {
             "name": "Navbar Background",
-            "id": "navbar_bg",
-            "default": "#101010"
+            "value": "navbar_bg",
+            "color": "#101010"
         },
         {
             "name": "Body Background",
-            "id": "body_bg",
-            "default": "#262626"
+            "value": "body_bg",
+            "color": "#1a1a1a"
         },
         {
             "name": "Card Background",
-            "id": "card_bg",
-            "default": "#1a1a1a"
+            "value": "card_bg",
+            "color": "#242424"
         },
         {
             "name": "Footer Background",
-            "id": "footer_bg",
-            "default": "#101010"
-        }
-    ],
-    "fonts": [
-        {
-            "name": "Body Font",
-            "id": "body_font",
-            "default": "Roboto"
-        },
-        {
-            "name": "Display Font",
-            "id": "display_font",
-            "default": "Exo 2"
-        }
-    ],
-    "options": [
-        {
-            "name": "Show Social Links",
-            "id": "show_socials",
-            "type": "bool",
-            "default": true
-        },
-        {
-            "name": "Show Player Stats",
-            "id": "show_stats",
-            "type": "bool",
-            "default": true
-        },
-        {
-            "name": "Discord URL",
-            "id": "discord_url",
-            "type": "url",
-            "default": ""
-        },
-        {
-            "name": "Twitter URL",
-            "id": "twitter_url",
-            "type": "url",
-            "default": ""
-        },
-        {
-            "name": "YouTube URL",
-            "id": "youtube_url",
-            "type": "url",
-            "default": ""
-        },
-        {
-            "name": "GitHub URL",
-            "id": "github_url",
-            "type": "url",
-            "default": ""
-        },
-        {
-            "name": "TikTok URL",
-            "id": "tiktok_url",
-            "type": "url",
-            "default": ""
+            "value": "footer_bg",
+            "color": "#0d0d0d"
         }
     ]
 }
