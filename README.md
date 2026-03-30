@@ -1,23 +1,21 @@
 # azurium-theme-nova
 
-A Nova-like Azuriom theme inspired by [MineLite](https://github.com/YuketsuSh/MineLite) and the official Azuriom demo pages.
+A Nova-like theme for [Azuriom](https://azuriom.com), inspired by [MineLite](https://github.com/YuketsuSh/MineLite) and the official Azuriom demo.
 
 ## Features
 
 - Dark, modern design inspired by the Nova theme
-- Fully responsive (Bootstrap 5)
+- Fully customizable via the Azuriom theme admin panel
+- Bootstrap 5 based layout
 - Pages: Home, Page, News, Forum, Vote, Shop, FAQ, Wiki
-- Easy theme configuration via the Azuriom admin panel
-- Custom hero section with background image, title, subtitle and CTA
-- Social links (Discord, Twitter, YouTube, GitHub)
-- Copy-to-clipboard server IP button
+- Responsive (mobile-first)
 
 ## Installation
 
-1. Download or clone this repository into `resources/themes/azurium-theme-nova`
-2. Go to your Azuriom admin panel → **Appearance → Themes**
-3. Activate the **azurium-theme-nova** theme
-4. Configure the theme settings as needed
+1. Download or clone this repository
+2. Place the folder in `resources/themes/` of your Azuriom installation
+3. Activate the theme in your Azuriom admin panel
+4. Configure the theme settings (server name, hero, IPs, links...)
 
 ## Structure
 
@@ -25,31 +23,32 @@ A Nova-like Azuriom theme inspired by [MineLite](https://github.com/YuketsuSh/Mi
 azurium-theme-nova/
 ├── theme.json
 ├── config.json
-├── config/
-│   └── theme.php
+├── config/theme.php
 ├── assets/
 │   ├── css/style.css
 │   ├── js/app.js
 │   └── img/
-├── views/
-│   ├── layouts/app.blade.php
-│   ├── partials/navbar.blade.php
-│   ├── partials/footer.blade.php
-│   ├── home.blade.php
-│   ├── page.blade.php
-│   ├── news/
-│   ├── forum/
-│   ├── vote/
-│   ├── shop/
-│   ├── faq/
-│   └── wiki/
+└── views/
+    ├── layouts/app.blade.php
+    ├── partials/
+    │   ├── navbar.blade.php
+    │   └── footer.blade.php
+    ├── home.blade.php
+    ├── page.blade.php
+    ├── news/
+    ├── forum/
+    ├── vote/
+    ├── shop/
+    ├── faq/
+    └── wiki/
 ```
 
 ## Credits
 
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
-- Built for [Azuriom](https://azuriom.com)
+- [Azuriom](https://azuriom.com)
+- [MineLite by YuketsuSh](https://github.com/YuketsuSh/MineLite)
+- Theme developed by [Sutiper](https://github.com/Sutiper)
 
 ## License
 
-MIT License
+MIT

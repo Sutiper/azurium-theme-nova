@@ -40,24 +40,36 @@
     "type": "text",
     "id": "background_image",
     "name": "Background image",
-    "default": "assets/img/hero-bg.jpg"
+    "default": "img/hero-bg.jpg"
   },
   {
     "type": "text",
     "id": "server_ip",
-    "name": "Server IP",
+    "name": "Server IP (main)",
     "default": "play.example.com"
   },
   {
     "type": "text",
-    "id": "twitter_link",
-    "name": "Twitter / X link",
+    "id": "server_ip2",
+    "name": "Server IP 2 (optional)",
+    "default": ""
+  },
+  {
+    "type": "text",
+    "id": "server_ip3",
+    "name": "Server IP 3 (optional)",
     "default": ""
   },
   {
     "type": "text",
     "id": "youtube_link",
     "name": "YouTube link",
+    "default": ""
+  },
+  {
+    "type": "text",
+    "id": "twitter_link",
+    "name": "Twitter/X link",
     "default": ""
   },
   {
