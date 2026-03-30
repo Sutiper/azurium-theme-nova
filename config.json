@@ -41,23 +41,5 @@
     "id": "background_image",
     "name": "Background image (relative path)",
     "default": ""
-  },
-  {
-    "type": "text",
-    "id": "server_ip",
-    "name": "Server IP",
-    "default": "play.example.com"
-  },
-  {
-    "type": "text",
-    "id": "server_ip2",
-    "name": "Server IP 2 (optional)",
-    "default": ""
-  },
-  {
-    "type": "text",
-    "id": "server_ip3",
-    "name": "Server IP 3 (optional)",
-    "default": ""
   }
 ]
