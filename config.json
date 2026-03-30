@@ -2,43 +2,50 @@
     "colors": [
         {
             "name": "Primary Color",
-            "value": "primary",
+            "id": "primary",
             "default": "#165fd4"
         },
         {
             "name": "Secondary Color",
-            "value": "secondary",
+            "id": "secondary",
             "default": "#ffffff"
         },
         {
             "name": "Navbar Background",
-            "value": "navbar-bg",
+            "id": "navbar_background",
             "default": "#101010"
         },
         {
             "name": "Body Background",
-            "value": "body-bg",
-            "default": "#1a1a1a"
-        },
-        {
-            "name": "Card Background",
-            "value": "card-bg",
+            "id": "body_background",
             "default": "#262626"
         },
         {
+            "name": "Card Background",
+            "id": "card_background",
+            "default": "#1e1e1e"
+        },
+        {
             "name": "Footer Background",
-            "value": "footer-bg",
-            "default": "#0d0d0d"
+            "id": "footer_background",
+            "default": "#101010"
         },
         {
             "name": "Text Color",
-            "value": "text-color",
+            "id": "text_color",
             "default": "#ffffff"
         },
         {
-            "name": "Text Muted Color",
-            "value": "text-muted",
-            "default": "#adb5bd"
+            "name": "Link Color",
+            "id": "link_color",
+            "default": "#165fd4"
+        }
+    ],
+    "fonts": [
+        {
+            "name": "Font Family",
+            "id": "font_family",
+            "default": "Roboto"
         }
     ]
 }

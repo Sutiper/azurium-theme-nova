@@ -1,8 +1,6 @@
 # azurium-theme-nova
 
-A clean, Nova-inspired dark theme for [Azuriom](https://azuriom.com).
-
-Inspired by the [MineLite](https://github.com/YuketsuSh/MineLite) theme.
+A clean, modern [Azuriom](https://azuriom.com) theme inspired by the Nova design.
 
 ## Preview
 
@@ -10,24 +8,29 @@ Inspired by the [MineLite](https://github.com/YuketsuSh/MineLite) theme.
 
 ## Installation
 
-1. Download or clone this repository into `resources/themes/azurium-theme-nova`.
-2. In your Azuriom admin panel, go to **Appearance > Themes** and enable **azurium-theme-nova**.
-3. Customize colors and settings from the theme configuration panel.
+1. Download or clone this repository into your Azuriom `resources/themes/` directory:
+   ```bash
+   git clone https://github.com/Sutiper/azurium-theme-nova resources/themes/nova
+   ```
+2. Go to your Azuriom admin panel → **Appearance** → **Themes** and activate **Nova**.
+3. Customize colors and fonts in the theme settings.
 
 ## Structure
 
 ```
-azurium-theme-nova/
-├── theme.json         # Theme metadata
-├── config.json        # Customizable color/settings config
+.
+├── theme.json          # Theme metadata
+├── config.json         # Customizable color & font settings
 ├── assets/
 │   ├── css/
-│   │   └── style.css  # Main stylesheet
-│   └── js/
-│       └── script.js  # Main scripts
+│   │   ├── style.css       # Main stylesheet
+│   │   └── components.css  # Component styles
+│   ├── js/
+│   │   └── script.js       # Main JS
+│   └── img/                # Place your logo.png & background.png here
 └── views/
     ├── layouts/
-    │   └── app.blade.php
+    │   └── app.blade.php   # Main layout
     ├── partials/
     │   ├── navbar.blade.php
     │   └── footer.blade.php
@@ -41,6 +44,11 @@ azurium-theme-nova/
     └── wiki/
 ```
 
+## Requirements
+
+- Azuriom 1.x
+- PHP 8.1+
+
 ## License
 
-MIT License — see [LICENSE](LICENSE).
+[MIT](LICENSE)
