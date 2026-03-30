@@ -1,12 +1,19 @@
 # azurium-theme-nova
 
-A Nova-like Azuriom theme, inspired by [MineLite](https://github.com/YuketsuSh/MineLite).
+A Nova-like theme for [Azuriom](https://azuriom.com), inspired by [MineLite](https://github.com/YuketsuSh/MineLite) and the official Azuriom demo pages.
+
+## Features
+
+- Dark, modern Nova-inspired design
+- Fully responsive (Bootstrap 5)
+- Customizable via the Azuriom admin panel (`config.json` settings)
+- Views for: Home, Pages, Forum, Vote, Shop, FAQ, Wiki, News
 
 ## Installation
 
-1. Download or clone this repo into `resources/themes/azurium-theme-nova`
-2. Activate the theme in your Azuriom admin panel
-3. Customize colors, texts and links in **Appearance > Theme settings**
+1. Download or clone this repository into `resources/themes/azurium-theme-nova`.
+2. In your Azuriom admin panel, go to **Appearance > Themes** and activate **azurium-theme-nova**.
+3. Configure settings under **Appearance > Theme settings**.
 
 ## Structure
 
@@ -22,9 +29,8 @@ azurium-theme-nova/
 │   └── img/
 └── views/
     ├── layouts/app.blade.php
-    ├── partials/
-    │   ├── navbar.blade.php
-    │   └── footer.blade.php
+    ├── partials/navbar.blade.php
+    ├── partials/footer.blade.php
     ├── home.blade.php
     ├── page.blade.php
     ├── news/
@@ -39,3 +45,7 @@ azurium-theme-nova/
 
 - Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
 - Built for [Azuriom](https://azuriom.com)
+
+## License
+
+MIT

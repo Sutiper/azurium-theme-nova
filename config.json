@@ -39,7 +39,31 @@
   {
     "type": "text",
     "id": "background_image",
-    "name": "Background image URL",
+    "name": "Background image path",
+    "default": "img/hero-bg.jpg"
+  },
+  {
+    "type": "text",
+    "id": "server_ip",
+    "name": "Server IP",
+    "default": "play.yourserver.net"
+  },
+  {
+    "type": "text",
+    "id": "twitter_link",
+    "name": "Twitter/X link",
+    "default": ""
+  },
+  {
+    "type": "text",
+    "id": "youtube_link",
+    "name": "YouTube link",
+    "default": ""
+  },
+  {
+    "type": "text",
+    "id": "github_link",
+    "name": "GitHub link",
     "default": ""
   }
 ]
