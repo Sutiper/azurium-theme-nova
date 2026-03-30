@@ -1,15 +1,13 @@
 {
-    "id": "azurium-theme-nova",
-    "name": "Azurium Nova",
+    "name": "azurium-theme-nova",
     "version": "1.0.0",
-    "description": "A clean, modern dark Minecraft theme for Azuriom inspired by the Nova aesthetic.",
+    "description": "A clean, modern Azuriom theme inspired by Nova, built for Minecraft server websites.",
     "url": "https://github.com/Sutiper/azurium-theme-nova",
     "authors": [
         {
             "name": "Sutiper",
-            "user": "Sutiper"
+            "role": "Developer"
         }
     ],
-    "azuriom_api": "1.0",
-    "homepage": "https://github.com/Sutiper/azurium-theme-nova"
+    "azuriom_api": "1.2.0"
 }

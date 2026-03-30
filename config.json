@@ -1,21 +1,56 @@
 {
-    "colors": {
-        "primary": "#165fd4",
-        "secondary": "#ffffff",
-        "navbar": "#101010",
-        "background": "#1a1a1a",
-        "footer": "#0d0d0d"
-    },
-    "fonts": {
-        "body": "Exo 2",
-        "display": "Rajdhani"
-    },
-    "settings": {
-        "server_ip": "mc.example.com",
-        "discord_url": "https://discord.gg/example",
-        "twitter_url": "https://twitter.com/example",
-        "youtube_url": "https://youtube.com/@example",
-        "show_stats": true,
-        "particles_enabled": true
-    }
+    "colors": [
+        {
+            "name": "Primary Color",
+            "css_variable": "--primary",
+            "default": "#165fd4"
+        },
+        {
+            "name": "Secondary Color",
+            "css_variable": "--secondary",
+            "default": "#ffffff"
+        },
+        {
+            "name": "Background Color",
+            "css_variable": "--bg",
+            "default": "#1a1a1a"
+        },
+        {
+            "name": "Navbar Background",
+            "css_variable": "--navbar-bg",
+            "default": "#101010"
+        },
+        {
+            "name": "Footer Background",
+            "css_variable": "--footer-bg",
+            "default": "#0d0d0d"
+        },
+        {
+            "name": "Card Background",
+            "css_variable": "--card-bg",
+            "default": "#242424"
+        },
+        {
+            "name": "Text Color",
+            "css_variable": "--text",
+            "default": "#ffffff"
+        },
+        {
+            "name": "Text Muted Color",
+            "css_variable": "--text-muted",
+            "default": "#aaaaaa"
+        }
+    ],
+    "fonts": [
+        {
+            "name": "Body Font",
+            "css_variable": "--font-body",
+            "default": "'Satoshi', sans-serif"
+        },
+        {
+            "name": "Display Font",
+            "css_variable": "--font-display",
+            "default": "'Cabinet Grotesk', sans-serif"
+        }
+    ]
 }

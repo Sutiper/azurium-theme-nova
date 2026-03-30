@@ -1,42 +1,49 @@
-# Azurium Nova — Azuriom Theme
+# azurium-theme-nova
 
-A clean, modern dark Minecraft theme for [Azuriom](https://azuriom.com), inspired by the Nova aesthetic and [MineLite](https://github.com/YuketsuSh/MineLite).
+A clean, modern **Azuriom** theme inspired by the Nova design, built for Minecraft server websites.
 
-## Preview
-
-> *Screenshots coming soon.*
+![Preview](https://raw.githubusercontent.com/Sutiper/azurium-theme-nova/main/preview.png)
 
 ## Features
 
-- 🌑 Full dark mode design with customizable accent color
-- 🎨 Nova-inspired layout (hero, stats, features sections)
-- 📱 Mobile-first responsive layout
-- 🧩 Blade templates for all core Azuriom pages
-- 🏪 Shop, Forum, Vote, FAQ, Wiki pages included
-- ⚙️ Easy configuration via `config.json`
-- ✨ Smooth CSS animations & transitions
+- 🎨 Dark, immersive design inspired by Nova
+- 📱 Fully responsive (mobile-first)
+- ⚡ Bootstrap 5 based
+- 🔧 Configurable colors and fonts via admin panel
+- 📦 Supports: Home, Pages, News, Forum, Vote, Shop, FAQ, Wiki
+- 🛡️ Clean Blade templates — easy to customize
 
 ## Installation
 
-1. Download or clone this repository into `public/themes/azurium-theme-nova`
-2. Activate the theme in your Azuriom admin panel under **Appearance → Themes**
-3. Customize colors, fonts and settings in `config.json` or directly from the admin panel
+1. Download or clone this repository into your Azuriom theme folder:
+   ```
+   resources/themes/azurium-theme-nova/
+   ```
+2. Go to your Azuriom admin panel → **Appearance** → **Themes**
+3. Select **azurium-theme-nova** and click **Enable**
+4. Customize colors and settings via **Theme Settings**
+
+## Requirements
+
+- Azuriom `>= 1.2.0`
+- PHP `>= 8.1`
 
 ## Structure
 
 ```
 azurium-theme-nova/
-├── theme.json              # Theme metadata
-├── config.json             # Default configuration
+├── theme.json          # Theme metadata
+├── config.json         # Customizable colors & fonts
+├── config/             # Theme PHP config
 ├── assets/
 │   ├── css/
-│   │   ├── style.css       # Main stylesheet
-│   │   └── animations.css  # CSS animations
+│   │   ├── style.css   # Main stylesheet
+│   │   └── components.css
 │   └── js/
-│       └── script.js       # Theme JavaScript
+│       └── script.js   # Main JS
 └── views/
     ├── layouts/
-    │   └── app.blade.php   # Main layout
+    │   └── app.blade.php
     ├── partials/
     │   ├── navbar.blade.php
     │   └── footer.blade.php
@@ -50,16 +57,11 @@ azurium-theme-nova/
     └── wiki/
 ```
 
-## Configuration
-
-Edit `config.json` to set your server IP, social links, colors and more.
-
-## Credits
-
-- Built for [Azuriom](https://azuriom.com)
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
-- Bootstrap 5 & Bootstrap Icons
-
 ## License
 
 MIT License — see [LICENSE](LICENSE)
+
+## Credits
+
+- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
+- Built on [Azuriom](https://azuriom.com)
