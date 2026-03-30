@@ -39,19 +39,19 @@
   {
     "type": "text",
     "id": "background_image",
-    "name": "Background image path",
-    "default": "img/hero-bg.jpg"
+    "name": "Background image",
+    "default": "assets/img/hero-bg.jpg"
   },
   {
     "type": "text",
     "id": "server_ip",
     "name": "Server IP",
-    "default": "play.yourserver.net"
+    "default": "play.example.com"
   },
   {
     "type": "text",
     "id": "twitter_link",
-    "name": "Twitter/X link",
+    "name": "Twitter / X link",
     "default": ""
   },
   {

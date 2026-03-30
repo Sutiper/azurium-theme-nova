@@ -1,4 +1,1 @@
-Place your theme images here:
-- logo.png       : Your server logo (recommended 200x200px)
-- hero-bg.jpg    : Hero/banner background image (recommended 1920x1080px)
-- favicon.ico    : Browser favicon
+Place your logo.png and hero-bg.jpg in this folder.
