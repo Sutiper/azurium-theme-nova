@@ -14,8 +14,8 @@
                 <h2>
                     @php
                         try {
-                            $status = \Azuriom\Models\Server::first();
-                            echo $status ? $status->players : '0';
+                            $server = \Azuriom\Plugin\Vote\Models\Server::first();
+                            echo $server ? $server->players : '0';
                         } catch (\Exception $e) {
                             echo '0';
                         }
@@ -30,7 +30,7 @@
 <footer class="nova-footer">
     <div class="container">
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-            <span>&copy; {{ date('Y') }} {{ theme_config('server_name', site_name()) }} &mdash; All Rights Reserved.</span>
+            <span>&copy; {{ date('Y') }} {{ site_name() }} &mdash; All Rights Reserved.</span>
             <span>Powered by <a href="https://azuriom.com" target="_blank" rel="noopener noreferrer">Azuriom</a></span>
         </div>
     </div>
