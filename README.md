@@ -1,60 +1,57 @@
-# Nova Theme for Azuriom
+# Azurium Nova Theme
 
-A clean, modern and fully customizable theme for [Azuriom](https://azuriom.com), inspired by the Nova design.
+A modern, dark Minecraft server theme for [Azuriom](https://azuriom.com), inspired by the Nova aesthetic.
 
 ## Features
 
-- 🎨 Fully customizable colors via the Azuriom admin panel
-- 🌙 Dark mode by default with a clean dark UI
-- 📱 Fully responsive (mobile-first)
-- 🖥️ Supports all major Azuriom plugins (Forum, Shop, Vote, Wiki, Support, FAQ)
-- ⚡ Fast and lightweight
-- 🔧 Easy to configure via `config.json`
-
-## Pages Included
-
-- Home
-- Simple pages
-- News (index + show)
-- Forum (index + category + thread)
-- Vote
-- Shop (index + category + product)
-- FAQ
-- Wiki (index + article)
-- Profile
-- Auth (login, register, forgot password)
-- Errors (403, 404, 500, 503)
+- Dark, immersive design tailored for Minecraft servers
+- Fully responsive (mobile-first)
+- Bootstrap 5 based layout
+- Bootstrap Icons
+- Supports: Home, Forum, Shop, Vote, FAQ, Wiki, News pages
+- Configurable server IPs, social links, background image
+- Player stats footer block
 
 ## Installation
 
-1. Download or clone this repository into `resources/themes/nova` in your Azuriom installation.
-2. Go to your Azuriom admin panel → **Appearance** → **Themes**.
-3. Activate the **Nova** theme.
-4. Configure colors, logo, background and other settings in the theme settings page.
+1. Download or clone this repository into `resources/themes/azurium-theme-nova`
+2. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Azurium Nova**
+3. Customize the theme settings (server IPs, colors, social links, background image)
 
-## Configuration
+## Structure
 
-All settings are available in the Azuriom admin panel under **Appearance** → **Theme settings**:
-
-| Setting | Description |
-|---|---|
-| Primary Color | Main accent color (buttons, links, highlights) |
-| Navbar Background | Background color of the navigation bar |
-| Body Background | Main background color |
-| Card Background | Background color of cards/panels |
-| Footer Background | Background color of the footer |
-| Logo | Your server logo |
-| Background | Hero/header background image |
-| Server IP | Displayed IP on the home page |
-| Discord / Twitter / YouTube / GitHub | Social links in the footer |
+```
+azurium-theme-nova/
+├── theme.json          # Theme metadata
+├── config.json         # Theme settings definition
+├── assets/
+│   ├── css/
+│   │   ├── style.css   # Main stylesheet
+│   │   └── components.css
+│   └── js/
+│       └── script.js   # Theme JS
+└── views/
+    ├── layouts/
+    │   └── app.blade.php
+    ├── partials/
+    │   ├── navbar.blade.php
+    │   └── footer.blade.php
+    ├── home.blade.php
+    ├── page.blade.php
+    ├── news/
+    ├── forum/
+    ├── vote/
+    ├── shop/
+    ├── faq/
+    └── wiki/
+```
 
 ## Credits
 
-- Built by [Sutiper](https://github.com/Sutiper)
-- Inspired by the Nova theme for Azuriom
-- Powered by [Azuriom](https://azuriom.com)
-- Based on [Bootstrap 5](https://getbootstrap.com) + [Bootstrap Icons](https://icons.getbootstrap.com)
+- Built for [Azuriom](https://azuriom.com)
+- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite)
+- Author: Sutiper
 
 ## License
 
-MIT License — see [LICENSE](LICENSE)
+MIT

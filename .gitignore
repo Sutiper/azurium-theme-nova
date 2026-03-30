@@ -1,7 +1,5 @@
 .DS_Store
+Thumbs.db
 *.log
+.env
 node_modules/
-.idea/
-.vscode/
-*.swp
-*.swo

@@ -1,86 +1,76 @@
 {
-    "colors": [
+    "colors": {
+        "primary": "#165fd4",
+        "secondary": "#0d4baa",
+        "navbar": "#101010",
+        "body_bg": "#1a1a1a",
+        "body_text": "#ffffff",
+        "footer_bg": "#0d0d0d",
+        "card_bg": "#242424"
+    },
+    "fonts": {
+        "body": "Exo 2",
+        "display": "Rajdhani"
+    },
+    "settings": [
         {
-            "name": "Primary Color",
-            "id": "primary",
-            "default": "#165fd4"
+            "name": "background_image",
+            "type": "image",
+            "label": "Background Image",
+            "default": null
         },
         {
-            "name": "Secondary Color",
-            "id": "secondary",
-            "default": "#ffffff"
-        },
-        {
-            "name": "Navbar Background",
-            "id": "navbar_background",
-            "default": "#101010"
-        },
-        {
-            "name": "Body Background",
-            "id": "body_background",
-            "default": "#262626"
-        },
-        {
-            "name": "Card Background",
-            "id": "card_background",
-            "default": "#1e1e1e"
-        },
-        {
-            "name": "Footer Background",
-            "id": "footer_background",
-            "default": "#101010"
-        }
-    ],
-    "fonts": [
-        {
-            "name": "Font Family",
-            "id": "font_family",
-            "default": "Roboto"
-        }
-    ],
-    "images": [
-        {
-            "name": "Logo",
-            "id": "logo"
-        },
-        {
-            "name": "Background",
-            "id": "background"
-        },
-        {
-            "name": "Favicon",
-            "id": "favicon"
-        }
-    ],
-    "texts": [
-        {
-            "name": "Server IP",
-            "id": "server_ip",
+            "name": "server_ip",
+            "type": "text",
+            "label": "Primary Server IP",
             "default": "play.example.com"
         },
         {
-            "name": "Server Description",
-            "id": "server_description",
-            "default": "The best Minecraft server!"
-        },
-        {
-            "name": "Discord URL",
-            "id": "discord_url",
+            "name": "server_ip_2",
+            "type": "text",
+            "label": "Secondary Server IP (optional)",
             "default": ""
         },
         {
-            "name": "Twitter URL",
-            "id": "twitter_url",
+            "name": "server_ip_3",
+            "type": "text",
+            "label": "Tertiary Server IP (optional)",
             "default": ""
         },
         {
-            "name": "YouTube URL",
-            "id": "youtube_url",
+            "name": "discord_url",
+            "type": "text",
+            "label": "Discord Invite URL",
+            "default": "https://discord.gg/azuriom"
+        },
+        {
+            "name": "twitter_url",
+            "type": "text",
+            "label": "Twitter URL",
             "default": ""
         },
         {
-            "name": "GitHub URL",
-            "id": "github_url",
+            "name": "youtube_url",
+            "type": "text",
+            "label": "YouTube URL",
+            "default": ""
+        },
+        {
+            "name": "github_url",
+            "type": "text",
+            "label": "GitHub URL",
+            "default": ""
+        },
+        {
+            "name": "show_stats",
+            "type": "boolean",
+            "label": "Show player stats in footer",
+            "default": true
+        },
+        {
+            "name": "launcher_url",
+            "type": "text",
+            "label": "Launcher download URL",
             "default": ""
         }
     ]
