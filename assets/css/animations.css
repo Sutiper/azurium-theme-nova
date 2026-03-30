@@ -1,0 +1,89 @@
+/* =======================
+   NOVA THEME - ANIMATIONS
+   ======================= */
+
+/* ===== AOS (Animate On Scroll) fallback ===== */
+[data-aos] { opacity: 1; transform: none; }
+
+/* ===== FADE IN UP ===== */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ===== FADE IN ===== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.4s ease both;
+}
+
+/* ===== STAGGER children ===== */
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 80ms; }
+.stagger > *:nth-child(3) { animation-delay: 160ms; }
+.stagger > *:nth-child(4) { animation-delay: 240ms; }
+.stagger > *:nth-child(5) { animation-delay: 320ms; }
+.stagger > *:nth-child(6) { animation-delay: 400ms; }
+
+/* ===== GLOW PULSE (accent elements) ===== */
+@keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(22,95,212,0); }
+    50% { box-shadow: 0 0 16px 4px rgba(22,95,212,0.25); }
+}
+
+.animate-glow { animation: glowPulse 3s ease-in-out infinite; }
+
+/* ===== COUNTER (number roll) ===== */
+@keyframes countUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.counter-animate { animation: countUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* ===== NAVBAR TRANSITION ===== */
+#navbarContainer {
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ===== DROPDOWN SLIDE ===== */
+.navbar-dropdown-body {
+    animation: fadeInUp 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ===== MOBILE NAV ===== */
+#navbarMobileContainer {
+    animation: fadeIn 0.2s ease both;
+}
+
+/* ===== PAGE TRANSITION ===== */
+#loader {
+    transition: opacity 0.3s ease;
+}
+
+/* ===== HOVER LIFT ===== */
+.hover-lift {
+    transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+}
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
