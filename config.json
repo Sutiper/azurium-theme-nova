@@ -1,67 +1,45 @@
-{
-    "navbar-background": {
-        "name": "Navbar Background Color",
-        "type": "color",
-        "default": "#0d0d0d"
-    },
-    "navbar-text": {
-        "name": "Navbar Text Color",
-        "type": "color",
-        "default": "#ffffff"
-    },
-    "primary-color": {
-        "name": "Primary Accent Color",
-        "type": "color",
-        "default": "#165fd4"
-    },
-    "body-background": {
-        "name": "Body Background Color",
-        "type": "color",
-        "default": "#1a1a1a"
-    },
-    "body-text-color": {
-        "name": "Body Text Color",
-        "type": "color",
-        "default": "#e0e0e0"
-    },
-    "footer-background": {
-        "name": "Footer Background Color",
-        "type": "color",
-        "default": "#111111"
-    },
-    "footer-text-color": {
-        "name": "Footer Text Color",
-        "type": "color",
-        "default": "#aaaaaa"
-    },
-    "hero-background-image": {
-        "name": "Hero Background Image URL",
-        "type": "text",
-        "default": ""
-    },
-    "server-ip": {
-        "name": "Server IP (displayed on home)",
-        "type": "text",
-        "default": "play.example.com"
-    },
-    "discord-url": {
-        "name": "Discord Invite URL",
-        "type": "text",
-        "default": ""
-    },
-    "twitter-url": {
-        "name": "Twitter/X URL",
-        "type": "text",
-        "default": ""
-    },
-    "youtube-url": {
-        "name": "YouTube Channel URL",
-        "type": "text",
-        "default": ""
-    },
-    "show-home-stats": {
-        "name": "Show player stats on home",
-        "type": "checkbox",
-        "default": true
-    }
-}
+[
+  {
+    "type": "text",
+    "id": "server_name",
+    "name": "Server name",
+    "description": "Displayed in the navbar and hero section.",
+    "default": "Azuriom"
+  },
+  {
+    "type": "text",
+    "id": "hero_title",
+    "name": "Hero title",
+    "default": "Welcome to our server"
+  },
+  {
+    "type": "textarea",
+    "id": "hero_subtitle",
+    "name": "Hero subtitle",
+    "default": "A modern Azuriom theme inspired by Nova."
+  },
+  {
+    "type": "text",
+    "id": "hero_button_text",
+    "name": "Hero button text",
+    "default": "Start now"
+  },
+  {
+    "type": "text",
+    "id": "hero_button_link",
+    "name": "Hero button link",
+    "default": "/shop"
+  },
+  {
+    "type": "text",
+    "id": "discord_link",
+    "name": "Discord link",
+    "default": "https://discord.gg/example"
+  },
+  {
+    "type": "text",
+    "id": "background_image",
+    "name": "Background image path",
+    "default": "img/hero-bg.jpg"
+  }
+]

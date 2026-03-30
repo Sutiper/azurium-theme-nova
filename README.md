@@ -1,48 +1,30 @@
-# Azurium Nova Theme
+# azurium-theme-nova
 
-> A clean, dark, modern Azuriom theme inspired by the Nova design.
-
-![Azuriom](https://azuriom.com/assets/svg/logo-title.svg)
-
-## Features
-
-- 🎨 Fully customizable colors via the Azuriom admin panel
-- 📱 Fully responsive (mobile-first)
-- 🌙 Dark theme by default
-- 🏠 Custom home page with hero, features, stats & news
-- 💬 Forum, Vote, Shop, FAQ, Wiki pages
-- ⚡ Bootstrap 5 + Bootstrap Icons
+A Nova-like theme for [Azuriom](https://azuriom.com), inspired by [MineLite](https://github.com/YuketsuSh/MineLite).
 
 ## Installation
 
-1. Download or clone this repo
-2. Place the folder in `resources/themes/azurium-theme-nova`
-3. Go to Azuriom Admin → Appearance → Themes
-4. Activate **Azurium Nova**
-5. Customize colors in the theme settings
-
-## Requirements
-
-- Azuriom >= 1.0
-- PHP >= 8.0
+1. Download or clone this repository into `resources/themes/azurium-theme-nova`
+2. Go to your Azuriom admin panel → Appearance → Themes
+3. Activate **azurium-theme-nova**
+4. Customize settings via Appearance → Theme settings
 
 ## Structure
 
 ```
 azurium-theme-nova/
-├── theme.json           # Theme metadata
-├── config.json          # Customizable settings
+├── theme.json          # Theme metadata
+├── config.json         # Editable theme settings
+├── config/
+│   └── theme.php       # PHP config values
 ├── assets/
-│   ├── css/
-│   │   └── style.css    # Main stylesheet
-│   └── js/
-│       └── script.js    # Main scripts
+│   ├── css/style.css   # Main stylesheet
+│   ├── js/app.js       # Main JS
+│   └── img/            # Images (logo, backgrounds)
 └── views/
-    ├── layouts/
-    │   └── app.blade.php
-    ├── partials/
-    │   ├── navbar.blade.php
-    │   └── footer.blade.php
+    ├── layouts/app.blade.php
+    ├── partials/navbar.blade.php
+    ├── partials/footer.blade.php
     ├── home.blade.php
     ├── page.blade.php
     ├── news/
@@ -53,11 +35,6 @@ azurium-theme-nova/
     └── wiki/
 ```
 
-## Credits
-
-- Inspired by [MineLite](https://github.com/YuketsuSh/MineLite) by YuketsuSh
-- Built for [Azuriom](https://azuriom.com)
-
 ## License
 
-MIT License — see [LICENSE](LICENSE)
+MIT

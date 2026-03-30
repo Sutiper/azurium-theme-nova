@@ -1,14 +1,7 @@
 {
-    "id": "azurium-theme-nova",
-    "name": "Azurium Nova",
-    "description": "A clean, modern Azuriom theme inspired by the Nova design.",
-    "version": "1.0.0",
-    "url": "https://github.com/Sutiper/azurium-theme-nova",
-    "authors": [
-        {
-            "name": "Sutiper",
-            "user": "Sutiper"
-        }
-    ],
-    "azuriom_api": "1.0"
+  "name": "azurium-theme-nova",
+  "version": "1.0.0",
+  "description": "A Nova-like Azuriom theme inspired by MineLite and the Azuriom demo pages.",
+  "author": "Sutiper",
+  "url": "https://github.com/Sutiper/azurium-theme-nova"
 }
