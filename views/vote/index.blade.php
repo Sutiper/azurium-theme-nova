@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Vote - ' . theme_config('server_name', site_name()))
+@section('title', 'Vote - ' . site_name())
 
 @section('content')
 
