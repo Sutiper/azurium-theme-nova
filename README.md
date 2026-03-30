@@ -1,36 +1,41 @@
 # azurium-theme-nova
 
-A clean, modern [Azuriom](https://azuriom.com) theme inspired by the Nova design.
+A clean, modern **dark theme** for [Azuriom](https://azuriom.com), inspired by the Nova design.
 
 ## Preview
 
-> Coming soon.
+> Screenshots coming soon.
 
 ## Installation
 
-1. Download or clone this repository into your Azuriom `resources/themes/` directory:
-   ```bash
-   git clone https://github.com/Sutiper/azurium-theme-nova resources/themes/nova
-   ```
-2. Go to your Azuriom admin panel → **Appearance** → **Themes** and activate **Nova**.
-3. Customize colors and fonts in the theme settings.
+1. Download the theme from the [Azuriom Market](https://market.azuriom.com) or clone this repository into `resources/themes/nova`.
+2. In your Azuriom admin panel, go to **Appearance > Themes** and activate **Nova**.
+3. Customize colors and options in the theme settings.
+
+## Features
+
+- 🌑 Full dark UI with customizable accent color
+- 📱 Fully responsive (mobile-first)
+- 🎮 Supports all core Azuriom plugins: Forum, Shop, Vote, FAQ, Wiki, Support
+- ⚙️ Configurable colors, fonts, and social links via admin panel
+- 🔒 Auth pages (login, register, 2FA) styled to match
+- 🛡️ Admin panel overrides for a consistent experience
 
 ## Structure
 
 ```
-.
+azurium-theme-nova/
 ├── theme.json          # Theme metadata
-├── config.json         # Customizable color & font settings
+├── config.json         # Theme configuration (colors, fonts, options)
 ├── assets/
 │   ├── css/
-│   │   ├── style.css       # Main stylesheet
-│   │   └── components.css  # Component styles
-│   ├── js/
-│   │   └── script.js       # Main JS
-│   └── img/                # Place your logo.png & background.png here
+│   │   ├── style.css   # Main theme styles
+│   │   └── admin.css   # Admin panel overrides
+│   └── js/
+│       └── script.js   # Theme JavaScript
 └── views/
     ├── layouts/
-    │   └── app.blade.php   # Main layout
+    │   └── app.blade.php
     ├── partials/
     │   ├── navbar.blade.php
     │   └── footer.blade.php
@@ -46,9 +51,9 @@ A clean, modern [Azuriom](https://azuriom.com) theme inspired by the Nova design
 
 ## Requirements
 
-- Azuriom 1.x
-- PHP 8.1+
+- Azuriom >= 1.0
+- PHP >= 8.0
 
 ## License
 
-[MIT](LICENSE)
+MIT License — see [LICENSE](LICENSE).
