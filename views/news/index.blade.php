@@ -1,12 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'News - ' . theme_config('server_name', site_name()))
+@section('title', 'News - ' . site_name())
 
 @section('content')
 
 <header class="nova-banner"
-    style="background-image: url('{{ theme_asset(theme_config('background_image', 'img/hero-bg.jpg')) }}')">
-    <div class="container">
+    style="background-image: url('{{ theme_asset(theme_config('background_image', 'img/hero-bg.jpg')) }}')">    <div class="container">
         <h1><i class="bi bi-newspaper me-2"></i>News</h1>
     </div>
 </header>
@@ -22,7 +21,7 @@
                 <div class="nova-card">
                     @if($post->image)
                     <img src="{{ $post->imageUrl() }}" alt="{{ $post->title }}"
-                         class="w-100 mb-3" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover;">
+                        class="w-100 mb-3" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover;">
                     @endif
                     <span class="badge" style="background:var(--nova-primary);font-size:0.75rem;">{{ $post->created_at->diffForHumans() }}</span>
                     <h3 class="mt-2">{{ $post->title }}</h3>
