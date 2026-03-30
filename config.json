@@ -1,13 +1,67 @@
 {
-    "colors": {
-        "navbar-bg": "#101010",
-        "body-bg": "#1a1a1a",
-        "body-color": "#e0e0e0",
-        "primary": "#165fd4",
-        "secondary": "#6c757d"
+    "navbar-background": {
+        "name": "Navbar Background Color",
+        "type": "color",
+        "default": "#0d0d0d"
     },
-    "fonts": {
-        "body": "Rajdhani",
-        "heading": "Rajdhani"
+    "navbar-text": {
+        "name": "Navbar Text Color",
+        "type": "color",
+        "default": "#ffffff"
+    },
+    "primary-color": {
+        "name": "Primary Accent Color",
+        "type": "color",
+        "default": "#165fd4"
+    },
+    "body-background": {
+        "name": "Body Background Color",
+        "type": "color",
+        "default": "#1a1a1a"
+    },
+    "body-text-color": {
+        "name": "Body Text Color",
+        "type": "color",
+        "default": "#e0e0e0"
+    },
+    "footer-background": {
+        "name": "Footer Background Color",
+        "type": "color",
+        "default": "#111111"
+    },
+    "footer-text-color": {
+        "name": "Footer Text Color",
+        "type": "color",
+        "default": "#aaaaaa"
+    },
+    "hero-background-image": {
+        "name": "Hero Background Image URL",
+        "type": "text",
+        "default": ""
+    },
+    "server-ip": {
+        "name": "Server IP (displayed on home)",
+        "type": "text",
+        "default": "play.example.com"
+    },
+    "discord-url": {
+        "name": "Discord Invite URL",
+        "type": "text",
+        "default": ""
+    },
+    "twitter-url": {
+        "name": "Twitter/X URL",
+        "type": "text",
+        "default": ""
+    },
+    "youtube-url": {
+        "name": "YouTube Channel URL",
+        "type": "text",
+        "default": ""
+    },
+    "show-home-stats": {
+        "name": "Show player stats on home",
+        "type": "checkbox",
+        "default": true
     }
 }
